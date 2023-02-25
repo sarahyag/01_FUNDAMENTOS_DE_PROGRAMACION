@@ -22,13 +22,13 @@ namespace PracticaPromedioEdades
             //Declarar variables
             int E1, E2, E3, Prom;
             //Entrada
-            E1=System.Int16.Parse(txtE1.Text);
-            E2=System.Int16.Parse(txtE2.Text);
-            E3=System.Int16.Parse(txtE3.Text);
+            E1 = System.Int16.Parse(txtE1.Text);
+            E2 = System.Int16.Parse(txtE2.Text);
+            E3 = System.Int16.Parse(txtE3.Text);
             //Proceso
             Prom = (E1 + E2 + E3) / 3;
             //Salida
-            txtPromedio.Text=Prom.ToString();
+            txtPromedio.Text = Prom.ToString();
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
