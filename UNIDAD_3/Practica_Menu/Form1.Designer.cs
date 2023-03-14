@@ -39,6 +39,7 @@
             this.btndesplegar = new System.Windows.Forms.Button();
             this.labelresultado = new System.Windows.Forms.Label();
             this.btnlimpiar = new System.Windows.Forms.Button();
+            this.btnsalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labeltitulo
@@ -148,11 +149,23 @@
             this.btnlimpiar.UseVisualStyleBackColor = true;
             this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
             // 
+            // btnsalir
+            // 
+            this.btnsalir.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsalir.Location = new System.Drawing.Point(359, 351);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(106, 33);
+            this.btnsalir.TabIndex = 11;
+            this.btnsalir.Text = "Salida";
+            this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.labelresultado);
             this.Controls.Add(this.btndesplegar);
@@ -184,6 +197,7 @@
         private System.Windows.Forms.Button btndesplegar;
         private System.Windows.Forms.Label labelresultado;
         private System.Windows.Forms.Button btnlimpiar;
+        private System.Windows.Forms.Button btnsalir;
     }
 }
 

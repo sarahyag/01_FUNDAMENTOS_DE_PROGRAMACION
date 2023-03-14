@@ -66,5 +66,10 @@ namespace Practica_Menu
             txtnumero.Clear();
             labelresultado.Text = "";
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
