@@ -46,7 +46,7 @@
             // 
             this.labeltitulo.AutoSize = true;
             this.labeltitulo.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeltitulo.Location = new System.Drawing.Point(282, 9);
+            this.labeltitulo.Location = new System.Drawing.Point(239, 9);
             this.labeltitulo.Name = "labeltitulo";
             this.labeltitulo.Size = new System.Drawing.Size(260, 29);
             this.labeltitulo.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             this.labelN1.AutoSize = true;
             this.labelN1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelN1.Location = new System.Drawing.Point(197, 138);
+            this.labelN1.Location = new System.Drawing.Point(154, 138);
             this.labelN1.Name = "labelN1";
             this.labelN1.Size = new System.Drawing.Size(247, 24);
             this.labelN1.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             this.labelN2.AutoSize = true;
             this.labelN2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelN2.Location = new System.Drawing.Point(176, 175);
+            this.labelN2.Location = new System.Drawing.Point(133, 175);
             this.labelN2.Name = "labelN2";
             this.labelN2.Size = new System.Drawing.Size(268, 24);
             this.labelN2.TabIndex = 2;
@@ -75,7 +75,7 @@
             // txtN1
             // 
             this.txtN1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtN1.Location = new System.Drawing.Point(456, 135);
+            this.txtN1.Location = new System.Drawing.Point(413, 135);
             this.txtN1.Name = "txtN1";
             this.txtN1.Size = new System.Drawing.Size(100, 32);
             this.txtN1.TabIndex = 3;
@@ -83,7 +83,7 @@
             // txtN2
             // 
             this.txtN2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtN2.Location = new System.Drawing.Point(456, 172);
+            this.txtN2.Location = new System.Drawing.Point(413, 172);
             this.txtN2.Name = "txtN2";
             this.txtN2.Size = new System.Drawing.Size(100, 32);
             this.txtN2.TabIndex = 4;
@@ -91,7 +91,7 @@
             // btnmenu
             // 
             this.btnmenu.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmenu.Location = new System.Drawing.Point(318, 50);
+            this.btnmenu.Location = new System.Drawing.Point(275, 50);
             this.btnmenu.Name = "btnmenu";
             this.btnmenu.Size = new System.Drawing.Size(188, 57);
             this.btnmenu.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             this.labelnumero.AutoSize = true;
             this.labelnumero.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelnumero.Location = new System.Drawing.Point(114, 213);
+            this.labelnumero.Location = new System.Drawing.Point(71, 213);
             this.labelnumero.Name = "labelnumero";
             this.labelnumero.Size = new System.Drawing.Size(330, 24);
             this.labelnumero.TabIndex = 6;
@@ -112,7 +112,7 @@
             // txtnumero
             // 
             this.txtnumero.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnumero.Location = new System.Drawing.Point(456, 210);
+            this.txtnumero.Location = new System.Drawing.Point(413, 210);
             this.txtnumero.Name = "txtnumero";
             this.txtnumero.Size = new System.Drawing.Size(100, 32);
             this.txtnumero.TabIndex = 7;
@@ -120,7 +120,7 @@
             // btndesplegar
             // 
             this.btndesplegar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndesplegar.Location = new System.Drawing.Point(196, 299);
+            this.btndesplegar.Location = new System.Drawing.Point(153, 299);
             this.btndesplegar.Name = "btndesplegar";
             this.btndesplegar.Size = new System.Drawing.Size(208, 33);
             this.btndesplegar.TabIndex = 8;
@@ -133,7 +133,7 @@
             this.labelresultado.AutoSize = true;
             this.labelresultado.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.labelresultado.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelresultado.Location = new System.Drawing.Point(314, 254);
+            this.labelresultado.Location = new System.Drawing.Point(271, 254);
             this.labelresultado.Name = "labelresultado";
             this.labelresultado.Size = new System.Drawing.Size(0, 24);
             this.labelresultado.TabIndex = 9;
@@ -141,7 +141,7 @@
             // btnlimpiar
             // 
             this.btnlimpiar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpiar.Location = new System.Drawing.Point(410, 299);
+            this.btnlimpiar.Location = new System.Drawing.Point(367, 299);
             this.btnlimpiar.Name = "btnlimpiar";
             this.btnlimpiar.Size = new System.Drawing.Size(208, 33);
             this.btnlimpiar.TabIndex = 10;
@@ -152,7 +152,7 @@
             // btnsalir
             // 
             this.btnsalir.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.Location = new System.Drawing.Point(359, 351);
+            this.btnsalir.Location = new System.Drawing.Point(316, 351);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(106, 33);
             this.btnsalir.TabIndex = 11;
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(667, 450);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.labelresultado);
