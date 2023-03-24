@@ -31,5 +31,16 @@ namespace digito_combinacion
             else
                 txtresultado.Text = n + " es una combinacion ".ToString();
         }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            txtn.Clear();
+            txtresultado.Clear();
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

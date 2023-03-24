@@ -27,6 +27,7 @@ namespace PracticaBoletaPromedio
             //Declaracion de variables
             Int16 C1, C2, C3, C4, C5, C6, Promedio;
             string NA, NC, Nombre_carrera, NM1, NM2, NM3, NM4, NM5, NM6, Numero_Semestre;
+
             //Entrada
             C1 = System.Int16.Parse(txtC1.Text);
             C2 = System.Int16.Parse(txtC2.Text);
@@ -45,8 +46,16 @@ namespace PracticaBoletaPromedio
             NM5 = txtNM5.Text;
             NM6 = txtNM6.Text;
             Numero_Semestre = txtSemestre.Text;
+
             //Proceso
             Promedio = (short)((C1 + C2 + C3 + C4 + C5 + C6) / 6);
+
+            //Comparacion 
+            if (Promedio >= 7)
+                txtestado.Text = " El estado del semestre es aprobatorio, con el promedio de " + Promedio.ToString();
+            else
+                txtestado.Text = " El estado del semestre es reprobado, con el promedio de " + Promedio.ToString();
+
             //Salida
             txtPromedio.Text = Promedio.ToString();
 

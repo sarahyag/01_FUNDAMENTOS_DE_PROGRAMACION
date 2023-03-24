@@ -62,6 +62,8 @@
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.txtestado = new System.Windows.Forms.TextBox();
+            this.label_ESTADO = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelTitulo
@@ -351,7 +353,7 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(198, 547);
+            this.btnCalcular.Location = new System.Drawing.Point(191, 608);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(108, 32);
             this.btnCalcular.TabIndex = 31;
@@ -362,7 +364,7 @@
             // btnLimpiar
             // 
             this.btnLimpiar.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(312, 547);
+            this.btnLimpiar.Location = new System.Drawing.Point(305, 608);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(166, 32);
             this.btnLimpiar.TabIndex = 32;
@@ -373,7 +375,7 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(491, 547);
+            this.btnSalir.Location = new System.Drawing.Point(484, 608);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(85, 32);
             this.btnSalir.TabIndex = 33;
@@ -381,11 +383,32 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // txtestado
+            // 
+            this.txtestado.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtestado.Location = new System.Drawing.Point(240, 509);
+            this.txtestado.Name = "txtestado";
+            this.txtestado.Size = new System.Drawing.Size(688, 29);
+            this.txtestado.TabIndex = 35;
+            this.txtestado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label_ESTADO
+            // 
+            this.label_ESTADO.AutoSize = true;
+            this.label_ESTADO.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_ESTADO.Location = new System.Drawing.Point(12, 512);
+            this.label_ESTADO.Name = "label_ESTADO";
+            this.label_ESTADO.Size = new System.Drawing.Size(222, 22);
+            this.label_ESTADO.TabIndex = 34;
+            this.label_ESTADO.Text = "Aprobado / reprobado:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1041, 652);
+            this.Controls.Add(this.txtestado);
+            this.Controls.Add(this.label_ESTADO);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnCalcular);
@@ -463,6 +486,8 @@
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.TextBox txtestado;
+        private System.Windows.Forms.Label label_ESTADO;
     }
 }
 

@@ -105,6 +105,7 @@
             this.btnlimpiar.TabIndex = 6;
             this.btnlimpiar.Text = "Eliminar valores";
             this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
             // 
             // btnsalir
             // 
@@ -115,6 +116,7 @@
             this.btnsalir.TabIndex = 7;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // Form1
             // 
