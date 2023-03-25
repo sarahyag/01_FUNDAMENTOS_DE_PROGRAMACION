@@ -20,16 +20,16 @@ namespace Tabla_de_multiplicar
         private void btn_calcular_Click(object sender, EventArgs e)
         {
             //declaracion de variables 
-            double x, n, res;
+            double n, c, res;
 
             //entrada
-            x=System.Double.Parse(txt_n.Text);
+            n=System.Double.Parse(txt_n.Text);
 
             //ciclo y desplegar
-            for (n= 1; n<=10; n=n+1) 
+            for (c= 1; c<=10; c =c +1) 
             {
-                res = x * n;
-                txt_tabla.Text += x.ToString() + " * " + n.ToString() + " = " + res.ToString() + " \r\n ";
+                res = n * c;
+                txt_tabla.Text += n.ToString() + " * " + c.ToString() + " = " + res.ToString() + " \r\n ";
             }
         }
 
