@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numeros_Tabla_Multiplicacion_Ciclo_While", "Numeros_Tabla_Multiplicacion_Ciclo_While.csproj", "{8AD3081E-EF89-4693-8735-6D6DBB216AA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AD3081E-EF89-4693-8735-6D6DBB216AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD3081E-EF89-4693-8735-6D6DBB216AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD3081E-EF89-4693-8735-6D6DBB216AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD3081E-EF89-4693-8735-6D6DBB216AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D29E670E-2A78-4D68-A91F-117FBDFB79D9}
+	EndGlobalSection
+EndGlobal
