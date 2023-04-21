@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Numeros_1_1_Ciclo_Do_While.Properties
+namespace PRUEBAPRUEBA.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Numeros_1_1_Ciclo_Do_While.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Numeros_1_1_Ciclo_Do_While.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PRUEBAPRUEBA.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

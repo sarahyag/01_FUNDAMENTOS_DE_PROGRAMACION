@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Numeros_20_50_Ciclo_Do_While.Properties
+namespace PRUEBAPRUEBA.Properties
 {
 
 

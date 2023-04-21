@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Numeros_20_50_Ciclo_Do_While
+namespace PRUEBAPRUEBA
 {
     internal static class Program
     {
