@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numeros_20_50_Ciclo_Do_While", "Numeros_20_50_Ciclo_Do_While.csproj", "{2E1B0273-AFA3-44C4-8C0E-1717D7050316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1B0273-AFA3-44C4-8C0E-1717D7050316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1B0273-AFA3-44C4-8C0E-1717D7050316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1B0273-AFA3-44C4-8C0E-1717D7050316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1B0273-AFA3-44C4-8C0E-1717D7050316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {720A3575-8C0C-4D43-A66E-E5C8194E23DF}
+	EndGlobalSection
+EndGlobal
