@@ -24,9 +24,9 @@ namespace Vector_Numerico_Random_Clase
             int[] n;
             int s = 0;
             int numero = System.Int16.Parse(txt_numero_elementos.Text);
-            int nm = 0;
+            int nm = 99999;
             int pm=0;
-            int np = 0;
+            int np=0;
 
             //generador de numeros aleatorios
             Random num = new Random();
@@ -41,10 +41,10 @@ namespace Vector_Numerico_Random_Clase
 
                 //elemento menor y su posicion
                 {
-                    if (n[p] > nm)
+                    if (nm > n[p])
                     {
-                        nm = n.Min();
-                        pm = p + 1;
+                        nm = n[p];
+                        pm = p+1;
                         txt_elemento_menor.Text = nm.ToString();
                         txt_posicion_elemento_menor.Text = pm.ToString();
                     }
@@ -54,7 +54,8 @@ namespace Vector_Numerico_Random_Clase
                 {
                     if (n[p] % 2 == 0)
                     {
-                        txt_cantidad_numeros_pares.Text = np.ToString();
+                        np += 1;
+                        txt_cantidad_numeros_pares.Text=np.ToString();
                     }
                 }
 
@@ -71,12 +72,11 @@ namespace Vector_Numerico_Random_Clase
 
         private void btn_reset_Click(object sender, EventArgs e)
         {
-            txt_cantidad_numeros_pares.Clear();
-            txt_elemento_menor.Clear();
-            txt_numero_elementos.Clear();
-            txt_posicion_elemento_menor.Clear();
-            txt_suma_digitos.Clear();
-            txt_vector.Clear();
+            foreach (var txt in Controls)
+            {
+                if (txt is TextBox)
+                    ((TextBox)txt).Clear();
+            }
         }
 
         private void btn_salir_Click(object sender, EventArgs e)

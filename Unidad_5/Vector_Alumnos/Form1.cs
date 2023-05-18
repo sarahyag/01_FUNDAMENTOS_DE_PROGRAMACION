@@ -42,10 +42,10 @@ namespace Vector_Alumnos
             string[] carrera = new string[10] { "ISC", "ISC", "ISC", "ISC", "ISC", "ISC", "ISC", "ISC", "ISC", "ISC" };
             int[] FP = new int[10] { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 };
             int[] Etica = new int[10] { 10, 9, 10, 10, 9, 10, 9, 8, 10, 9 };
-            int[] MD = new int[10] { 10, 9, 0, 10, 0, 0, 0, 0, 0, 10 };
+            int[] MD = new int[10] { 10, 9, 8, 10, 0, 0, 0, 0, 0, 10 };
             int[] Admin = new int[10] { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 };
-            int[] FI = new int[10] { 10, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-            int[] Calculo = new int[10] { 10, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            int[] FI = new int[10] { 10, 8, 0, 0, 0, 0, 0, 0, 0, 0 };
+            int[] Calculo = new int[10] { 10, 8, 0, 0, 0, 0, 0, 0, 0, 0 };
             
             //despliegue del vector
             for (p=0; p<10; p++)
